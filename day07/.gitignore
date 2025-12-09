@@ -1,0 +1,14 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# macOS
+.DS_Store
