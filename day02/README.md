@@ -1,47 +1,37 @@
-# Day 2: Advent of Code 2025
-```
-java -jar junit-platform-console-standalone.jar --class-path bin --scan-class-path
-# Run tests
+# Advent of Code 2025 - Day 2
 
-javac -cp ".:junit-platform-console-standalone.jar" -d bin src/main/java/aoc/*.java src/test/java/aoc/*.java
-# Compile tests (requires JUnit)
-```bash
+## Solution in Java
 
-## Testing
-
-```
-java -cp bin aoc.Solution input.txt
-# Run with actual input
-
-java -cp bin aoc.Solution example.txt
-# Run with example input
-
-java -cp bin aoc.Solution
-# Run
-
-javac -d bin src/main/java/aoc/*.java
-# Compile
-```bash
+Java solution for Day 2 of Advent of Code 2025.
 
 ## Running the Solution
 
+```bash
+# Compile
+javac -d bin src/main/java/aoc/*.java
 
-### Part 2
+# Run
+java -cp bin aoc.Solution
 
+# Run with example input
+java -cp bin aoc.Solution example.txt
 
-### Part 1
+# Run with actual input
+java -cp bin aoc.Solution input.txt
+```
 
-## Solution
+## Testing
 
-[Add problem description from https://adventofcode.com/2025/day/2]
+```bash
+# Compile tests (requires JUnit)
+javac -cp ".:junit-platform-console-standalone.jar" -d bin src/main/java/aoc/*.java src/test/java/aoc/*.java
+
+# Run tests
+java -jar junit-platform-console-standalone.jar --class-path bin --scan-class-path
+```
 
 ## Problem Description
 
-
-Advent of Code[About][Events][Shop][Settings][Log Out]tolgaz 2*
-   var y=2025;[Calendar][AoC++][Sponsors][Leaderboards][Stats]
-Our sponsors help make Advent of Code possible:
-Picnic Technologies - A tech-first approach to online groceries. We are #hiring for Java, React, Python, DevOps, Angular and more!
 --- Day 2: Gift Shop ---
 You get inside and take the elevator to its only other stop: the gift shop. "Thank you for visiting the North Pole!" gleefully exclaims a nearby sign. You aren't sure who is even allowed to visit the North Pole, but you know you can access the lobby through here, and from there you can access the rest of the North Pole base.
 

@@ -1,8 +1,8 @@
-# Advent of Code 2024 - Day 4
+# Advent of Code 2025 - Day 4
 
 ## Solution in Ruby
 
-This directory contains the Ruby solution for Day 4 of Advent of Code 2024.
+This directory contains the Ruby solution for Day 4 of Advent of Code 2025.
 
 ### Files
 
