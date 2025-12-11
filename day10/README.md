@@ -5,21 +5,25 @@
 ## 🚀 Usage
 
 ### Install dependencies
+
 ```bash
 npm install
 ```
 
 ### Run solution
+
 ```bash
 npm start              # Run with input.txt
 ```
 
 ### Run tests
+
 ```bash
 npm test
 ```
 
 ### Build
+
 ```bash
 npm run build
 ```
