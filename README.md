@@ -19,6 +19,7 @@
 | [7](day07) | 🟣 Kotlin     | ✅      |
 | [8](day08) | 🍎 Swift      | ✅      |
 | [9](day09) | 🦀 Rust       | ✅      |
+| [10](day10) | 💙 TypeScript | ✅      |
 
 ## 🎯 Upcoming Languages
 

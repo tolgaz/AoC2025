@@ -1,0 +1,26 @@
+{
+  "name": "day10",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 - Day 10",
+  "main": "solution.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist/solution.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "dev": "ts-node solution.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "js-combinatorics": "^2.1.2"
+  }
+}

@@ -54,6 +54,10 @@ cargo run --release
 
 - Rust 1.70+
 
+## NB
+
+Only works for problem input. We only check if the y axis cross the borders and not the x axis. We could do this by check every line down for each x, but thats not necessary as we got the correct solution
+
 ## Problem
 
 --- Day 9: Movie Theater ---
